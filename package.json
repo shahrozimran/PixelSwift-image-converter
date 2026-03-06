@@ -1,0 +1,31 @@
+{
+  "name": "pixelswift-image-converter",
+  "version": "1.0.0",
+  "description": "Full-stack image converter with Sharp and React",
+  "main": "index.js",
+  "scripts": {
+  "start:server": "cd server && npm start",
+  "start:client": "cd client && npm start",
+  "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahrozimran/PixelSwift-image-converter.git"
+  },
+  "keywords": [
+    "image-converter",
+    "react",
+    "sharp",
+    "automation"
+  ],
+  "author": "Shahroz Imran",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shahrozimran/PixelSwift-image-converter.issues"
+  },
+  "homepage": "https://github.com/shahrozimran/PixelSwift-image-converter#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

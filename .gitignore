@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+dist/
+build/
+client/build/
+
+# Environment and Logs
+.env
+*.log
+.DS_Store
+
+# Uploads/Temporary files
+server/uploads/
+server/converted/
