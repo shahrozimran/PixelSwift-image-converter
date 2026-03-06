@@ -5,18 +5,12 @@
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "prod": "tsc && node dist/index.js"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "keywords": [
-    "sharp",
-    "express",
-    "typescript",
-    "image-processing"
-  ],
-  "author": "Shahroz Imran",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
@@ -29,7 +23,6 @@
     "@types/express": "^5.0.6",
     "@types/multer": "^2.0.0",
     "@types/node": "^25.3.3",
-    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3"
   }
